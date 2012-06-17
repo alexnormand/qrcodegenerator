@@ -7,7 +7,7 @@ Build instructions
 
 Unless previously installed you'll _need_ __Cairo__ to install 
 the __node-canvas__ module. For system-specific installation 
-view the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).
+view the [node-canvas Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).
 
 
     $ git clone git://github.com/alexnormand/qrcodegenerator.git
