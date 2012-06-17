@@ -1,13 +1,13 @@
 (function (window, document, undefined) {
     
-     getQRCode = function (e) {
+    var getQRCode = function (e) {
         e.preventDefault();
         e.stopPropagation();
     
-         var text = encodeURIComponent(document.querySelector('input').value.trim());
+        var text = encodeURIComponent(document.querySelector('input')
+                                              .value
+                                              .trim());
          
-    
-
         window.location = window.location.href + text;        
     };
 
