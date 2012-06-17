@@ -1,5 +1,87 @@
+bodyBackgroundColor = #426B92
+mainBackgroundColor = #EEE
+font = "Lucida Grande", Helvetica, Arial, sans-serif
+fontSize = 14px
+
+titleFont = "Press Start 2P"
+titleFontSize = 3em
+ 
+
 body
   padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  font: fontSize font
+  background-color: bodyBackgroundColor
+
 a
   color: #00B7FF
+
+
+h1, h4
+  text-align: center
+  font: titleFontSize titleFont
+  text-shadow: 2px 2px 4px #AAA
+
+h4
+  font-size: titleFontSize - 1.5
+
+
+#main
+  width: 60%
+  margin: auto
+  background-color:  mainBackgroundColor
+  box-shadow: 5px 5px 6px #333
+  text-align: center
+  border-radius: 2px
+
+
+  input 
+    display: inline-block
+    width: 450px
+    height: 36px
+    padding: 7px
+    margin-bottom: 9px
+    margin-top: 12px
+    font-size: 16px
+    line-height: 18px
+    color: #555555
+    border: 1px solid #cccccc
+    border-radius: 3px;    
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+          
+
+.button_wrapper 
+    display: block
+    margin: auto
+
+
+.button 
+      display: inline-block
+      background: black
+      background-image: linear-gradient(top, #484545 , #2C2C2B)
+      border: 1px solid #282727   
+      border-bottom: 1px solid #383837    
+      border-radius: 4px
+      box-shadow: inset 0 1px 10px 1px #484545, 0px 1px 0 #000, 0 6px 0px #000, 0 8px 4px 1px #111111
+      color: #fff      
+      line-height: 1
+      margin-bottom: 15px
+      padding: 19px 0 10px 0
+      text-align: center
+      text-shadow: 0px -1px 1px #1e2d4d
+      text-decoration: none
+      width: 225px
+      -webkit-background-clip: padding-box 
+
+
+.button:hover, .button:active 
+    cursor: pointer
+
+
+.button:active              
+    box-shadow: inset 0 1px 10px 1px #484545, 0 1px 0 #000, 0 2px 0 #000, 0 4px 3px 0 #111111
+    margin-top: 5px 
+    margin-bottom: 10px 
+
+
+
