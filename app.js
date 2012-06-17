@@ -41,6 +41,8 @@ app.configure('production', function(){
 
 // Routes
 
+app.get('/:text', routes.getQRCodeImage);
+
 app.get('/', routes.index);
 
 app.listen(3000, function(){
